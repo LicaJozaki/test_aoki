@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="js/jquery-2.1.4.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script src="js/aoki.js"></script>
 </head>
 
 <body data-spy="scroll" data-target="#main-contents">
@@ -43,7 +44,6 @@
       <div id="empty"></div>
       <div class="jumbotron">
         <h1 class="text-center">Aoki</h1>
-        <!--      <p class="text-center">Aoki</p>-->
         <img src="images/aoki_top.jpg" class="img-responsive">
       </div>
     </div>
@@ -99,9 +99,8 @@
             <figcaption>
               <h3>システム手帳</h3>
               <ul>
-                <li class="list-unstyled">選び抜かれた高品質な革を職人が丹念に仕上げた、丈夫で機能的なシステム手帳です。</li>
-                <li class="list-unstyled">美しさと耐久性を兼ね備えた本品は、長く使える最高のパートナーとなるでしょう。</li>
-                <li class="list-unstyled">サイズ：164mm×232mm×22mm重量：502g</li>
+                <li>選び抜かれた高品質な革を職人が丹念に仕上げた、丈夫で機能的なシステム手帳です。</li>
+                <li>美しさと耐久性を兼ね備えた本品は、長く使える最高のパートナーとなるでしょう。</li>
               </ul>
             </figcaption>
           </figure>
@@ -110,8 +109,8 @@
             <figcaption>
               <h3>画材</h3>
               <ul>
-                <li>ヨーロッパからの輸入画材を取り揃えております。</li>
-                <li>ご希望のメーカからのお取り寄せもいたします。</li>
+                <li>ヨーロッパからの輸入画材を豊富に取り揃えております。</li>
+                <li>ご希望のメーカーからのお取り寄せもいたします。</li>
               </ul>
             </figcaption>
           </figure>
@@ -121,7 +120,9 @@
             <img src="images/stationary.jpg" class="img-responsive">
             <figcaption>
               <h3>新学期フェア</h3>
-              <p>新学期に大活躍のおしゃれな文具入荷しました。</p>
+              <ul>
+                <li>新学期に大活躍のおしゃれな文房具入荷しました。</li>
+              </ul>
             </figcaption>
           </figure>
           <figure>
@@ -130,7 +131,6 @@
               <h3>地球儀</h3>
               <ul>
                 <li>新しい作成法、新しいデザインを得て、おしゃれでインテリア性の高い商品となりました。</li>
-                <li>サイズ：30.5cm/4200万分の1重量：1.4kg</li>
               </ul>
             </figcaption>
           </figure>
@@ -164,8 +164,9 @@
             </div>
           </div>
           <div class="form-group">
-            <div class="col-sm-10">
-              <button type="button" class="btn btn-default navbar-btn">送信</button>
+            <div class="col-sm-offset-3 col-sm-9 text-right" id="btn">
+              <button class="btn btn-default">クリア</button>
+              <button class="btn btn-default">送信</button>
             </div>
           </div>
         </div>
