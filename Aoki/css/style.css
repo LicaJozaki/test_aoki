@@ -6,12 +6,9 @@ position: relative;
   height: 80px;
 }
 .jumbotron {
-/*  color: #0a1a66;*/
   color: #1A16A6;
   font-size: 200%;
   padding-top: 10px;
-/*  background-image: url(../images/aoki_top.jpg);*/
-/*  background-repeat: no-repeat;*/
 }
 .navbar-default .navbar-nav > li > a:hover {
   background-color: #e7e7e7;
@@ -20,13 +17,9 @@ position: relative;
   max-height: 400px;
   overflow-y: scroll;
 }
-.list-group {
-  height: 300px;
-}
 figure {
   position: relative;
   overflow: hidden;
-  width: 400px;
 }
 figcaption {
   position: absolute;
