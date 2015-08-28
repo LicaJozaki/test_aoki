@@ -34,6 +34,10 @@ figcaption {
   -webkit-transition: .5s;
   transition: .5s;
   opacity: 0;
+  color: #fff;
+}
+figcaption h3 {
+  text-align: center;
 }
 figure:hover figcaption {
   -webkit-transform: rotateY(0) rotateX(0);
